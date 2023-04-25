@@ -1,6 +1,14 @@
 
 body {
     background: rgb(164, 30, 216);
+    margin: 0;
+}
+
+#tabelas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
 }
 
 table {
@@ -75,30 +83,13 @@ tbody tr:hover {
     
 }
 
-
-
-/*
-.tb_primeiro {
-    float: left;
-    margin: 50px;
+.rodape {
+    margin-top: 50px;
+    padding: 24px;
+    color: rgb(255, 253, 253);
+    background-color: rgb(69, 69, 200);
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400; 
 }
-
-.tb_segundo {
-    float: right;
-    margin: 50px;
-}
-
-.tb_terceiro {
-    align-items: right;
-    margin: 50px;
-}
-
-.tb_quarto {
-    float: left;
-    margin: 50px;
-}
-
-.tb_quinto {
-    float: right;
-    margin: 50px;
-}*/
